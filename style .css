@@ -6,7 +6,7 @@ ul + p {
     font-size: 24px;
 }
 
-.text-box > .text-box + h3{
+.text-box  h3:nth-child(1){
     color: rgb(215, 95, 155);
 }
 
@@ -24,12 +24,4 @@ div + h3 + p {
 
 .yellow {
     color: yellow;
-}
-
-h3 {
-    color: pink;
-}
-
-div + h3 {
-    color: black;
 }
